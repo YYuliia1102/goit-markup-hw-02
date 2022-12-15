@@ -3,7 +3,7 @@ body {
     color: #2e2f42;
 }
 
-/* HEDER */
+/*-------- HEDER -------- */
 
 .link {
     text-decoration: none;
@@ -14,7 +14,7 @@ body {
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.33;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -63,7 +63,7 @@ body {
     color: #4d5ae5;
 }
 
-/* HERO */
+/* ------- HERO -------- */
 
 .hero {
     background: #2e2f42;
@@ -72,7 +72,7 @@ body {
 .hero-title {
     font-weight: 600;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
@@ -81,7 +81,7 @@ body {
 .hero-btn {
     font-weight: 600;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
@@ -94,3 +94,103 @@ body {
 .hero-btn:focus {
     background: #4d5ae5;
 }
+
+/* ------- Section 1 Description ------- */
+
+.description {
+}
+.main-description {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.block-description {
+}
+.text-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* <!----- Section 2 What are we doing -----> */
+
+.function {
+}
+.fuction-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.functin-list {
+}
+.function-description {
+}
+
+/* ------- Section 3  Our Team -------- */
+
+.team {
+}
+.team-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.team-list {
+}
+.team-block {
+}
+.team-name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.team-post {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* ----------- FOOTER ---------- */
+
+.footer {
+    background: #2e2f42;
+}
+.logo-footer {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #e7e9fc;
+}
+
+
+/* ================ PORTFOLIO =============== */
