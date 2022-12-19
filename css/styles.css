@@ -18,7 +18,6 @@ body {
 
 .logo {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -89,6 +88,7 @@ body {
 }
 
 .hero-btn {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   display: flex;
@@ -179,6 +179,7 @@ body {
   background: var(--title-color);
 }
 .logo-footer {
+  font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -206,8 +207,6 @@ body {
 .filter-list {
 }
 .filter-item {
-    width: 116px;
-  height: 48px;
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
@@ -215,6 +214,7 @@ body {
 }
 .filter-btn {
   font-family: inherit;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
   display: flex;
@@ -237,8 +237,6 @@ body {
 
 /* ----------- GALLERY ---------- */
 
-.gallery {
-}
 .gallery-list {
 }
 .gallery-item {
