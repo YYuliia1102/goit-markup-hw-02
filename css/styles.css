@@ -2,6 +2,7 @@
     --accent-color: #4d5ae5;
     --title-color: #2e2f42;
     --main-text-color: #434455;
+    --accent-light-color: #ffffff;
     }
 
 body {
@@ -21,8 +22,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-color);
@@ -76,7 +75,7 @@ body {
 /* ------- HERO -------- */
 
 .hero {
-  background: #2e2f42;
+  background: var(--title-color);
 }
 
 .hero-title {
@@ -84,24 +83,23 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--accent-light-color);
 }
 
 .hero-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--accent-light-color);
   background: var(--accent-color);
   cursor: pointer;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background: var(--accent-color);
+  background: #404BBF;
 }
 
 /* ------- Section 1 Description ------- */
@@ -144,6 +142,7 @@ body {
 /* ------- Section 3  Our Team -------- */
 
 .team {
+  background: #F4F4FD;
 }
 .team-title {
   font-size: 36px;
@@ -156,6 +155,7 @@ body {
 .team-list {
 }
 .team-block {
+  background: var(--accent-light-color);
 }
 .team-name {
   font-size: 20px;
@@ -183,8 +183,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
@@ -207,32 +205,25 @@ body {
 .filter-list {
 }
 .filter-item {
-  background: #f4f4fd;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
-  cursor: pointer;
 }
 .filter-btn {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--accent-color);
+  cursor: pointer;
 }
 .filter-btn:hover,
 .filter-btn:focus {
   background: var(--accent-color);
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--accent-light-color);
 }
 
 /* ----------- GALLERY ---------- */
